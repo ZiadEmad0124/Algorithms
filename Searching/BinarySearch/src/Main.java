@@ -17,5 +17,8 @@ public class Main {
         }else{
             System.out.println("Item found in index ==> " + index);
         }
+
+        System.out.print("This is the path = > ");
+        searching.getPath(arr,item,0,arr.length-1);
     }
 }
